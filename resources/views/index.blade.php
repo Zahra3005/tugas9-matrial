@@ -31,10 +31,6 @@ use App\Models\User;
         <div class="content-wrapper">
         <div class="row">
             <div class="col">
-                <img src="{{ asset('/images/welcome.png') }}" class="mr-1" alt="Welcome Image" height="600"
-                width="800">
-            </div>
-            <div class="col">
                 <div class="content-body">
                     {{-- <div class="row">
                         <div class="col-12">
@@ -49,7 +45,7 @@ use App\Models\User;
                         <div class="pricing-free-trial">
                             <table class="table table-sm table-hover-animation">
                                 <thead>
-                                    <tr>
+                                    <tr align="center">
                                         <th>ID User</th>
                                         <th>Nama User</th>
                                         <th>Email User</th>
@@ -57,7 +53,7 @@ use App\Models\User;
                                 </thead>
                                 <tbody>
                                 @foreach ($users as $user)
-                                <tr>
+                                <tr align="center">
                                     <td>{{ $user['id'] }}</td>
                                     <td>{{ $user['name'] }}</td>
                                     <td>{{ $user['email'] }}</td>

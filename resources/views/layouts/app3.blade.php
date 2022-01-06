@@ -61,13 +61,13 @@ use Illuminate\Support\Facades\Auth;
             <div class="bookmark-wrapper d-flex align-items-center">
             <a class="navbar-brand" href="">
                         <img src="{{ asset('/images/logo/logosmk.png') }}" height="40" width="40">
-                        <h3 class="brand-text">CIPTA INDAH</h3>
+                        <h3 class="brand-text">ZAARA CORP</h3>
             </a>
             </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <a href="/login" class="btn btn-primary me-md-2" type="button">Login</button></a>
-            <a href="/register" class="btn btn-primary ml-2 mr-2" type="button">Register</button></a>
+            <a href="/login" class="btn btn-info me-md-2" type="button">Login</button></a>
+            <a href="/register" class="btn btn-warning ml-2 mr-2" type="button">Register</button></a>
         </div>
     </nav>
     <!-- END: Header-->
@@ -226,7 +226,7 @@ use Illuminate\Support\Facades\Auth;
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
         <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy;
-                {{ date('Y') }}<a class="ml-25">Sunset Orange</a><span class="d-none d-sm-inline-block">, All
+                {{ date('Y') }}<a class="ml-25">Zaara Corp</a><span class="d-none d-sm-inline-block">, All
                     rights
                     Reserved</span></span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i
                     data-feather="heart"></i></span></p>
